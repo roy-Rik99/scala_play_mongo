@@ -1,0 +1,28 @@
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\rik19\Desktop\L2\Module3\module3\xs-hr-management\app\repositories\EmployeeRecordsRepository.scala:22:41: method find in trait GenericCollection is deprecated (since 0.16.0): Use `find` with optional `projection`[0m
+[0m[[0m[33mwarn[0m] [0m[0m        var list = collection.flatMap(_.find(BSONDocument()).cursor[EmployeeRecords](ReadPreference.primary).collect[Seq](limit, Cursor.FailOnError[Seq[EmployeeRecords]]()))[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                        ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\rik19\Desktop\L2\Module3\module3\xs-hr-management\app\repositories\EmployeeRecordsRepository.scala:22:45: package object json in package json is deprecated (since 0.19.2): Will be replaced `reactivemongo.play.json.compat._` from `reactivemongo-play-json-compat`[0m
+[0m[[0m[33mwarn[0m] [0m[0m        var list = collection.flatMap(_.find(BSONDocument()).cursor[EmployeeRecords](ReadPreference.primary).collect[Seq](limit, Cursor.FailOnError[Seq[EmployeeRecords]]()))[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                            ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\rik19\Desktop\L2\Module3\module3\xs-hr-management\app\repositories\EmployeeRecordsRepository.scala:29:81: method insert in trait GenericCollection is deprecated (since 0.16.1): Use `.insert(ordered = false).one(..)`[0m
+[0m[[0m[33mwarn[0m] [0m[0m    def create(er: EmployeeRecords): Future[WriteResult] = collection.flatMap(_.insert(er))[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                                ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\rik19\Desktop\L2\Module3\module3\xs-hr-management\app\repositories\EmployeeRecordsRepository.scala:31:88: method find in trait GenericCollection is deprecated (since 0.16.0): Use `find` with optional `projection`[0m
+[0m[[0m[33mwarn[0m] [0m[0m    def read(username: String): Future[Option[EmployeeRecords]] = collection.flatMap(_.find(BSONDocument("userName" -> username)).one[EmployeeRecords])[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                                       ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\rik19\Desktop\L2\Module3\module3\xs-hr-management\app\repositories\EmployeeRecordsRepository.scala:31:92: package object json in package json is deprecated (since 0.19.2): Will be replaced `reactivemongo.play.json.compat._` from `reactivemongo-play-json-compat`[0m
+[0m[[0m[33mwarn[0m] [0m[0m    def read(username: String): Future[Option[EmployeeRecords]] = collection.flatMap(_.find(BSONDocument("userName" -> username)).one[EmployeeRecords])[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                                           ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\rik19\Desktop\L2\Module3\module3\xs-hr-management\app\repositories\EmployeeRecordsRepository.scala:35:30: method findAndUpdate in trait GenericCollection is deprecated (since 0.18.0): Use other `findAndUpdate`[0m
+[0m[[0m[33mwarn[0m] [0m[0m        collection.flatMap(_.findAndUpdate(BSONDocument("userName" -> username),[0m
+[0m[[0m[33mwarn[0m] [0m[0m                             ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\rik19\Desktop\L2\Module3\module3\xs-hr-management\app\repositories\EmployeeRecordsRepository.scala:35:43: package object json in package json is deprecated (since 0.19.2): Will be replaced `reactivemongo.play.json.compat._` from `reactivemongo-play-json-compat`[0m
+[0m[[0m[33mwarn[0m] [0m[0m        collection.flatMap(_.findAndUpdate(BSONDocument("userName" -> username),[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                          ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\rik19\Desktop\L2\Module3\module3\xs-hr-management\app\repositories\EmployeeRecordsRepository.scala:47:90: method findAndRemove in trait GenericCollection is deprecated (since 0.18.0): Use the other `findAndRemove`[0m
+[0m[[0m[33mwarn[0m] [0m[0m    def delete(username: String): Future[Option[EmployeeRecords]] = collection.flatMap(_.findAndRemove(BSONDocument("userName" -> username)).map(_.result[EmployeeRecords]))[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                                         ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\rik19\Desktop\L2\Module3\module3\xs-hr-management\app\repositories\EmployeeRecordsRepository.scala:47:103: package object json in package json is deprecated (since 0.19.2): Will be replaced `reactivemongo.play.json.compat._` from `reactivemongo-play-json-compat`[0m
+[0m[[0m[33mwarn[0m] [0m[0m    def delete(username: String): Future[Option[EmployeeRecords]] = collection.flatMap(_.findAndRemove(BSONDocument("userName" -> username)).map(_.result[EmployeeRecords]))[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                                                      ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m9 warnings found[0m

@@ -1,0 +1,24 @@
+2021-03-29 12:03:54 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2021-03-29 12:03:54 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2021-03-29 12:11:55 [34mINFO [0;39m [36mp.m.r.DefaultReactiveMongoApi[0;39m [35m[0;39m ReactiveMongoApi stopping...
+2021-03-29 12:11:55 [34mINFO [0;39m [36mp.m.r.DefaultReactiveMongoApi[0;39m [35m[0;39m ReactiveMongoApi connections are stopped
+2021-03-29 12:11:56 [34mINFO [0;39m [36mplay.api.http.EnabledFilters[0;39m [35m[0;39m Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2021-03-29 12:11:56 [34mINFO [0;39m [36mplay.api.Play[0;39m [35m[0;39m Application started (Dev) (no global state)
+2021-03-29 12:25:32 [34mINFO [0;39m [36mp.a.i.l.c.CoordinatedShutdownSupport[0;39m [35m[0;39m Starting synchronous coordinated shutdown with ServerStoppedReason reason and 35000 milliseconds timeout
+2021-03-29 12:25:32 [34mINFO [0;39m [36mplay.core.server.AkkaHttpServer[0;39m [35m[0;39m Stopping Akka HTTP server...
+2021-03-29 12:25:32 [34mINFO [0;39m [36mplay.core.server.AkkaHttpServer[0;39m [35m[0;39m Terminating server binding for /0:0:0:0:0:0:0:0:9000
+2021-03-29 12:25:32 [34mINFO [0;39m [36mp.m.r.DefaultReactiveMongoApi[0;39m [35m[0;39m ReactiveMongoApi stopping...
+2021-03-29 12:25:32 [34mINFO [0;39m [36mp.m.r.DefaultReactiveMongoApi[0;39m [35m[0;39m ReactiveMongoApi connections are stopped
+2021-03-29 12:25:32 [34mINFO [0;39m [36mplay.core.server.AkkaHttpServer[0;39m [35m[0;39m Running provided shutdown stop hooks
