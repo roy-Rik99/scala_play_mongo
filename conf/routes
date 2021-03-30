@@ -1,0 +1,6 @@
+GET     /                   controllers.AppController.index
+GET     /employee           controllers.AppController.listEmployees
+POST    /employee           controllers.AppController.createEmployee
+GET     /employee/:uname    controllers.AppController.getEmployee(uname: String)
+PUT     /employee/:uname    controllers.AppController.updateEmployee(uname: String)
+DELETE  /employee/:uname    controllers.AppController.removeEmployee(uname: String)
